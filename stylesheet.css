@@ -1,0 +1,71 @@
+.body1 {
+    background-color: rgb(23, 14, 61);
+    font-family: "Arial", sans-serif;
+    color: rgb(26, 255, 0);
+}
+.body2 {
+    background-color: rgb(20, 0, 60);
+    font-family: "Helvetica", sans-serif;
+    color: lightgreen;
+}
+p {
+    color: rgb(255, 217, 146);
+    font-family: "Times New Roman", serif;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+nav ul {
+    background-color: rgb(79, 152, 255);
+    border-style: solid;
+    border-color: rgb(192, 0, 0);
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+}
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid white;
+}
+.table-style {
+    background-color: #d7d7d7;
+    font-family: Arial, sans-serif;
+    color: black; 
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-style td, th {
+    border: 2px solid #ffffff;
+    padding: 8px;
+}
+.table-style tr:hover {
+    background-color: #c3c8d3;
+}
+.table-style td:hover {
+    color:rgb(112, 30, 107);
+}
+.table-style th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #347637;
+    color: white;
+}
+.overdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+.divstuff {
+    border: 5px outset red;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+}
